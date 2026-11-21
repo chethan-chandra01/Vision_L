@@ -7,7 +7,9 @@ authors = [
     { name = "chethan", email = "chethanmadugula@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "opencv-python>=5.1.0.95",
+]
 
 [project.scripts]
 vision-l = "vision_l:main"
